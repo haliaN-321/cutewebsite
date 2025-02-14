@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Lora;
+    padding: 12px;
+    background: #fed2f3;
+    color: #ffffff;
+  
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 15px;
+    text-align: center;
+    background: #7fc1c2;
+  }
+  
+  .header h1 {
+    font-size: 75px;
+    font-weight: bolder;
+  }
+
+  .header p {
+    font-size: 20px;
+    font-weight: bolder
+  }
+  
+  /* Navigation Bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #07294D;
+  }
+  
+  /* Style for clickable links in navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Placeholder for search engine */
+  
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* For organizing and formatting main content on web page */
+  
+  .leftcolumn {
+    float: left;
+    width: 75%;
+  }
+  
+  /* investigate this part, may not need it */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .button {
+    border: none;
+    color: white;
+    padding: 15px 100px;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 1px solid rgb(0, 0, 0);
+  }
+  
+  .button1 {background-color: #7fc1c2;} /* Pink */
+  .button2 {background-color: #ff77ff;} /* Turquoise */
+  .button3 {background-color: rgb(87, 255, 199);}
+  
+  /* Footer */
+  .footer {
+    padding: 15px;
+    text-align: center;
+    background: #7fc1c2;
+  }
+
+  .footer p {
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  
